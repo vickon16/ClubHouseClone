@@ -1,0 +1,20 @@
+[
+  {
+    "id" : 1,
+    "time": "7:00 PM",
+    "title": "Mind Body Game",
+    "description": "Talk less, Do more celebrity"
+  },
+  {
+    "id" : 2,
+    "time": "9:00 PM",
+    "title": "Clubhouse Townhall",
+    "description": "Talk more, Do less celebrity"
+  },
+  {
+    "id" : 3,
+    "time" : "10:00 PM",
+    "title" : "ISM Earth",
+    "description" : "What is the connection between these two things"
+  }
+]

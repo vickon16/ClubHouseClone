@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+  color : #393c41;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 18px;
+  --textPrimary : rgba(241,239,227,0.8);
+  --bgPrimary : rgba(191,167,140,0.8);
+  --bgPrimary2 : rgba(191,167,140,0.4);
+  --bgPrimaryText : rgb(185, 125, 56);
+  --bgSecondary : rgba(254,226,93,0.8);
+  --dark : rgba(31,32,34,0.9);
+}
+
+body {
+  width: 100%;
+  font-family: "B612", sans-serif;
+  background-color: #f0ebd3;
+  color: var(--dark);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+svg, polygon {
+    fill: var(--dark);
+}
+
+a {
+  text-decoration: none;
+  transition: .25s ease-in-out;
+  color: var(--dark);
+  border-radius: 4px;
+}
+
+a:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  outline : none;
+  transition: .25s ease-in-out;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input, select {
+  padding: 0.7em 1em;
+  font-size: 1em;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id" : 1,
+    "title" : "Good Time",
+    "sub_title" : "Calvin Marris x Email Nava on Good Time Show",
+    "img" : "/images/1.jpg",
+    "time" : "8.00PM",
+    "chatNumber" : 6,
+    "members" : [
+      {"fullname": "Lola Isokun"},
+      {"fullname": "Rasheedah Obiageli"},
+      {"fullname": "Kubra Osuagwu"},
+      {"fullname": "Chisom Yaqub"}
+    ]
+  },
+  {
+    "id" : 2,
+    "title" : "Good Deed",
+    "sub_title" : "I purchased a baby clown from the Russian terrorist black market.",
+    "img" : "/images/2.jpg",
+    "time" : "12.00PM",
+    "chatNumber" : 8,
+    "members" : [
+      { "fullname": "Wale Samuel" },
+      { "fullname": "Titilayo Chibuike" },
+      { "fullname": "Kubra Osuagwu" },
+      { "fullname": "Chisom Yaqub" }
+    ]
+  },
+  {
+    "id" : 3,
+    "title" : "Good Will",
+    "sub_title" : "When he had to picnic on the beach, he purposely put sand in other people’s food.",
+    "img" : "/images/3.jpg",
+    "time" : "1.00AM",
+    "chatNumber" : 2,
+    "members" : [
+      { "fullname": "Lola Isokun" },
+      { "fullname": "Rasheedah Obiageli" },
+      { "fullname": "Kubra Osuagwu" },
+      { "fullname": "Chisom Yaqub" }
+    ]
+  },
+  {
+    "id" : 4,
+    "title" : "Absolute Menace",
+    "sub_title" : "Toddlers feeding raccoons surprised even the seasoned park ranger.",
+    "img" : "/images/4.jpg",
+    "time" : "4.00AM",
+    "chatNumber" : 10,
+    "members" : [
+      { "fullname": "Olumide Ebubechukwu" },
+      { "fullname": "Rasheedah Obiageli" },
+      { "fullname": "Banji Ismail" },
+      { "fullname": "Chisom Yaqub" }
+    ]
+  },
+  {
+    "id" : 5,
+    "title" : "Hirachy of Synergy",
+    "sub_title" : "You can't compare apples and oranges, but what about bananas and plantains?",
+    "img" : "/images/5.jpg",
+    "time" : "7.00AM",
+    "chatNumber" : 16,
+    "members" : [
+      { "fullname": "Wale Samuel" },
+      { "fullname": "Titilayo Chibuike" },
+      { "fullname": "Toluwani Abiodun" },
+      { "fullname": "Olumide Adewunmi" }
+    ]
+  },
+  {
+    "id" : 6,
+    "title" : "Glooming Perfomances",
+    "sub_title" : "Jeanne wished she has chosen the red button.",
+    "img" : "/images/6.jpg",
+    "time" : "6.00PM",
+    "chatNumber" : 4,
+    "members" : [
+      { "fullname": "Kubra Osuagwu" },
+      { "fullname": "Titilayo Chibuike" },
+      { "fullname": "Banji Ismail" },
+      { "fullname": "Chisom Yaqub" }
+    ]
+  }
+]
