@@ -63,11 +63,6 @@ const RoomContainer = styled.div`
   svg {
     fill : limegreen;
   }
-
-  @media screen and (max-width : 425px) {
-    justify-content: center;
-    text-align: center;
-  };
 `;
 
 const Members = styled.article`
