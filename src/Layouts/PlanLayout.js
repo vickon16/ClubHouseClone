@@ -1,15 +1,12 @@
-import { useContext } from "react";
-import { Navigate, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import styled from "styled-components";
-import { Context } from "../context";
 import { Flex } from "../globalFunctions";
 
 const PlanLayout = () => {
-   const [state] = useContext(Context);
 
   return (
     <Container>
-      {state.userInfo?.isLoggedIn ? <Navigate to="/" /> : <Outlet /> }
+       <Outlet />
     </Container>
   );
 }
