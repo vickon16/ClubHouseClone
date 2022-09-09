@@ -27,6 +27,7 @@ const RoomCard = () => {
         {data.map((item) => (
           <Card key={item.id} data-id={item.id} onClick={() => handleClick(item)}>
             <ImgWrapper>
+              <img src={item.members[0].img} alt="overlay-images" />
               <img src={item.img} alt="images" />
             </ImgWrapper>
             <CardContent>
@@ -95,15 +96,28 @@ const Card = styled.article`
 
 const ImgWrapper = styled.div`
   width: 50px;
-  border-radius: 50%;
-  overflow: hidden;
-  outline: 3px solid var(--textPrimary);
+  position: relative;
+
+  img {
+    border-radius: 30%;
+  }
+
+  > img:last-child {
+    width: 40px;
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    border: 2px solid rgba(249, 249, 249, 0.8);
+  }
+
+  
 `;
 
 const CardContent = styled.div`
+  margin: 1em 0 0;
+
   h4 {
     color: var(--bgPrimaryText);
-    margin: .3rem 0;
   }
 
   > div {

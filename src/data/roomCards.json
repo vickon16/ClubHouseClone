@@ -7,7 +7,7 @@
     "time" : "8.00PM",
     "chatNumber" : 6,
     "members" : [
-      {"fullname": "Lola Isokun"},
+      {"fullname": "Lola Isokun", "img" : "/images/john-doe.png"},
       {"fullname": "Rasheedah Obiageli"},
       {"fullname": "Kubra Osuagwu"},
       {"fullname": "Chisom Yaqub"}
@@ -21,7 +21,7 @@
     "time" : "12.00PM",
     "chatNumber" : 8,
     "members" : [
-      { "fullname": "Wale Samuel" },
+      { "fullname": "Wale Samuel" , "img" : "/images/john-doe.png"},
       { "fullname": "Titilayo Chibuike" },
       { "fullname": "Kubra Osuagwu" },
       { "fullname": "Chisom Yaqub" }
@@ -35,7 +35,7 @@
     "time" : "1.00AM",
     "chatNumber" : 2,
     "members" : [
-      { "fullname": "Lola Isokun" },
+      { "fullname": "Lola Isokun" , "img" : "/images/john-doe.png"},
       { "fullname": "Rasheedah Obiageli" },
       { "fullname": "Kubra Osuagwu" },
       { "fullname": "Chisom Yaqub" }
@@ -49,7 +49,7 @@
     "time" : "4.00AM",
     "chatNumber" : 10,
     "members" : [
-      { "fullname": "Olumide Ebubechukwu" },
+      { "fullname": "Olumide Ebubechukwu" , "img" : "/images/john-doe.png"},
       { "fullname": "Rasheedah Obiageli" },
       { "fullname": "Banji Ismail" },
       { "fullname": "Chisom Yaqub" }
@@ -63,7 +63,7 @@
     "time" : "7.00AM",
     "chatNumber" : 16,
     "members" : [
-      { "fullname": "Wale Samuel" },
+      { "fullname": "Wale Samuel" , "img" : "/images/john-doe.png"},
       { "fullname": "Titilayo Chibuike" },
       { "fullname": "Toluwani Abiodun" },
       { "fullname": "Olumide Adewunmi" }
@@ -77,7 +77,7 @@
     "time" : "6.00PM",
     "chatNumber" : 4,
     "members" : [
-      { "fullname": "Kubra Osuagwu" },
+      { "fullname": "Kubra Osuagwu" , "img" : "/images/john-doe.png"},
       { "fullname": "Titilayo Chibuike" },
       { "fullname": "Banji Ismail" },
       { "fullname": "Chisom Yaqub" }
