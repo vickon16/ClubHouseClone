@@ -1,19 +1,13 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useEffect } from "react";
 import { useContext } from "react";
 import { FcNext } from "react-icons/fc";
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 import styled from "styled-components";
 import { Context } from "../context";
 import { Flex } from "../globalFunctions";
 
 const Welcome = () => {
   const [state] = useContext(Context);
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    state.userInfo?.isLoggedIn && navigate("/app");
-  }, [])
 
   return (
     <Container>
@@ -34,12 +28,19 @@ const Welcome = () => {
           have you join us. <br />
         </p>
         <small>Paul, Rohan & the Clubhouse team.</small>
-        <ActionBtn>
-          <Link to="/invite">
-            Get your username<FcNext />
-          </Link>
-          <Link to="/invite">Have an invite text? Sign in</Link>
-        </ActionBtn>
+        {state.userInfo?.isLoggedIn ? (
+          <ActionBtn>
+            <Link to="/app">Continue to Clubhouse</Link>
+          </ActionBtn>
+        ) : (
+          <ActionBtn>
+            <Link to="/invite">
+              Get your username
+              <FcNext />
+            </Link>
+            <Link to="/invite">Have an invite text? Sign in</Link>
+          </ActionBtn>
+        )}
       </WelcomeInfo>
     </Container>
   );
