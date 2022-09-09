@@ -9,7 +9,7 @@ const PlanLayout = () => {
 
   return (
     <Container>
-      {state.userInfo?.isLoggedIn ? <Navigate to="/app" /> : <Outlet /> }
+      {state.userInfo?.isLoggedIn ? <Navigate to="/" /> : <Outlet /> }
     </Container>
   );
 }
