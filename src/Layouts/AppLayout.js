@@ -11,13 +11,13 @@ const AppLayout = () => {
 
   return (
     <>
-    <Main>
-      <Header />
-      <Container>
-        { state.userInfo?.isLoggedIn ? <Outlet /> : <Navigate to="/invite" />}
-      </Container>
-    </Main>
-    <BottomSheet />
+      <Main>
+        <Header />
+        <Container isOpen={state.isBottomSheetOpen}>
+          {state.userInfo?.isLoggedIn ? <Outlet /> : <Navigate to="/invite" />}
+        </Container>
+      </Main>
+      <BottomSheet />
     </>
   );
 }
@@ -36,10 +36,9 @@ const Container = styled.section`
   ${Flex("flex-start", "column")};
   width: 100%;
   padding: min(1.5em, 3%);
-  margin: 9em auto 1em;
-  position: relative;
+  margin: 7.5em auto 1em;
 
   @media screen and (max-width: 768px) {
-    margin: 13em auto 1em;
+    margin: 11em auto 1em;
   } ;
 `;

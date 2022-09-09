@@ -142,6 +142,7 @@ const Links = styled.div`
   ${Flex("center")};
   gap: 2em;
   margin-bottom: 1em;
+  padding: 0 1em;
 
   > button {
     ${Flex("center", "column")};
@@ -165,6 +166,14 @@ const Links = styled.div`
       box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
     }
   }
+
+  @media screen and (max-width : 425px) {
+    gap: 1em;
+
+    > button {
+      padding: 10px 20px;
+    }
+  };
 `;
 
 const StartMsg = styled.button`

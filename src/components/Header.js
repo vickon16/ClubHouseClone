@@ -48,21 +48,22 @@ const HeaderWrapper = styled.header`
   top: 0;
   left: 0;
   box-shadow: 0 0 5px #cccccc;
-  z-index: 3;
+  z-index: 2;
 `;
 
 const HeaderContainer = styled.div`
   ${Flex("space-between")};
   width: min(100%, 1100px);
-  padding: 25px 20px;
-  gap: 1.5rem;
+  padding: 10px;
+  gap: 1.5em;
   margin: 0 auto;
   background-color: #f0ebd3;
   
 
   @media screen and (max-width : 768px) {
     flex-direction: column;
-    padding: 40px 20px 20px;
+    padding: 30px 10px 10px;
+    gap: .3em;
   };
 `;
 
@@ -109,5 +110,9 @@ const HeaderNav = styled.nav`
 
   @media screen and (max-width : 425px) {
     gap: 0em;
+
+    > a {
+      padding: .5em .8em;
+    }
   };
 `;

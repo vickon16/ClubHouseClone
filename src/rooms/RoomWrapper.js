@@ -59,7 +59,7 @@ const RoomWrapper = () => {
         />
       </HeaderFunc>
 
-      <h3>Room {roomTitle}</h3>
+      <h3 className='room-title'>Room {roomTitle}</h3>
       {roomActive === "open" ? (
         <OpenRoom muted={muted} />
       ) : roomActive === "closed" ? (
@@ -81,11 +81,15 @@ const Wrapper = styled.section`
   width: 100%;
   padding: 0rem 0.5rem 1rem;
   height: 100%;
-  max-height: 700px;
+  max-height: 350px;
   overflow: auto;
 
   &::-webkit-scrollbar {
     display: none;
+  }
+
+  .room-title {
+    font-size: clamp(1em, 1.3vw, 1.3em);
   }
 
   .user {
@@ -129,16 +133,6 @@ const Wrapper = styled.section`
       padding: 3px;
       font-size: 1.2em;
       border-radius: 50%;
-    }
-
-    @media screen and (max-width: 425px) {
-      width: 80%;
-      gap: 0.6em;
-      align-items: center;
-
-      span {
-        font-size: .9em;
-      }
     }
   }
 
@@ -193,6 +187,10 @@ const HeaderFunc = styled.div`
       fill: red;
     }
   }
+
+  @media screen and (max-width : 425px) {
+    padding: 0 .5em;
+  };
 `;
 
 const LeaveRoom = styled.button`

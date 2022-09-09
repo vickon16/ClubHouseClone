@@ -68,7 +68,7 @@ const Container = styled.section`
   ${Flex("space-between", "column", "flex-start")};
   gap: 2.8em;
   width: 100%;
-  padding: 1em 0;
+  padding: 0 .5em;
 `;
 
 const ProfileHeader = styled.div`
