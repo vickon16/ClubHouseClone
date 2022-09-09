@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Outlet } from "react-router-dom";
+import { Navigate, Outlet } from "react-router-dom";
 import styled from "styled-components";
 import BottomSheet from "../components/BottomSheet";
 import Header from "../components/Header";
@@ -14,7 +14,7 @@ const AppLayout = () => {
       <Main>
         <Header />
         <Container isOpen={state.isBottomSheetOpen}>
-          <Outlet />
+          {state.userInfo?.isLoggedIn ? <Outlet /> : <Navigate to="/invite" />}
         </Container>
       </Main>
       <BottomSheet />
